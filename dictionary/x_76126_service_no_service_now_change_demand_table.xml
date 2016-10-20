@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Service-Now Change Demand Table" max_length="40" name="x_76126_service_no_service_now_change_demand_table" type="collection">
+        <element label="Build" max_length="40" name="build" type="glide_duration"/>
+        <element label="Build " max_length="40" name="build_actual" type="glide_duration"/>
+        <element label="Build amendments" max_length="40" name="build_amendments" type="glide_duration"/>
+        <element label="Build amendments " max_length="40" name="build_amendments_actual" type="glide_duration"/>
+        <element label="CAB Change" max_length="40" name="cab_change" type="glide_duration"/>
+        <element label="CAB Change " max_length="40" name="cab_change_actual" type="glide_duration"/>
+        <element label="Deployment" max_length="40" name="deployment" type="glide_duration"/>
+        <element label="Deployment " max_length="40" name="deployment_actual" type="glide_duration"/>
+        <element label="Documenting requirements" max_length="40" name="documenting_requirements" type="glide_duration"/>
+        <element label="Documenting requirements " max_length="40" name="documenting_requirements_actual" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Epic Link" max_length="1024" name="epic_link" reference="x_76126_service_no_service_now_change_demand_table" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Benefits" mandatory="true" max_length="4000" name="expected_benefits" type="string"/>
+        <element label="Gathering requirements" max_length="40" name="gathering_requirements" type="glide_duration"/>
+        <element label="Gathering requirements " max_length="40" name="gathering_requirements_actual" type="glide_duration"/>
+        <element label="Total" max_length="40" name="guestimate" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Links to" max_length="1024" name="links_to" reference="x_76126_service_no_service_now_change_demand_table" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem to resolve" mandatory="true" max_length="1000" name="problem_to_resolve" type="string"/>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="request_source_dept" dependent_on_field="request_source_dept" label="Request Source" mandatory="true" max_length="40" name="request_source" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="it" label="Service Desk" sequence="0" value="Service Desk"/>
+                <element dependent_value="business" label="Business Development" sequence="1" value="db_business"/>
+                <element dependent_value="business" label="Contact Centre" sequence="2" value="cc_business"/>
+                <element dependent_value="business" label="Contracted Services" sequence="3" value="Contracted Services"/>
+                <element dependent_value="business" label="Creative" sequence="4" value="creative_business"/>
+                <element dependent_value="business" label="Facilities" sequence="5" value="Facilities"/>
+                <element dependent_value="business" label="FCR" sequence="6" value="FCR"/>
+                <element dependent_value="business" label="Finance" sequence="7" value="Finance"/>
+                <element dependent_value="business" label="F&amp;D" sequence="8" value="F&amp;D"/>
+                <element dependent_value="business" label="Group Insurance" sequence="9" value="Group Insurance"/>
+                <element dependent_value="business" label="HR" sequence="10" value="HR"/>
+                <element dependent_value="business" label="Labs" sequence="11" value="Labs"/>
+                <element dependent_value="business" label="L&amp;D" sequence="12" value="L&amp;D"/>
+                <element dependent_value="business" label="Legal" sequence="13" value="Legal"/>
+                <element dependent_value="business" label="Marketing" sequence="14" value="Marketing"/>
+                <element dependent_value="business" label="Professional Services" sequence="15" value="Professional Services"/>
+                <element dependent_value="business" label="Property" sequence="16" value="Property"/>
+                <element dependent_value="business" label="Resourcing &amp; Talent" sequence="17" value="Resourcing &amp; Talent"/>
+                <element dependent_value="business" label="Retail Complaints" sequence="18" value="Retail Complaints"/>
+                <element dependent_value="business" label="Tax &amp; Treasury" sequence="19" value="Tax &amp; Treasury"/>
+                <element dependent_value="business" label="Travel" sequence="20" value="Travel"/>
+                <element dependent_value="it" label="App Support" sequence="21" value="App Support"/>
+                <element dependent_value="it" label="Architecture" sequence="22" value="Architecture"/>
+                <element dependent_value="it" label="Change Management" sequence="23" value="Change Management"/>
+                <element dependent_value="it" label="Commercial IT" sequence="24" value="Commercial IT"/>
+                <element dependent_value="it" label="Info Security" sequence="25" value="Info Security"/>
+                <element dependent_value="it" label="Infrastructure" sequence="26" value="Infrastructure"/>
+                <element dependent_value="it" label="LOB - Digicorp" sequence="27" value="LOB - Digicorp"/>
+                <element dependent_value="it" label="LOB - Retail" sequence="28" value="LOB - Retail"/>
+                <element dependent_value="it" label="LOB - Supply Chain" sequence="29" value="LOB - Supply Chain"/>
+                <element dependent_value="it" label="Major Incident" sequence="30" value="Major Incident"/>
+                <element dependent_value="it" label="Networks" sequence="31" value="Networks"/>
+                <element dependent_value="it" label="Performance Mgmt" sequence="32" value="Performance Mgmt"/>
+                <element dependent_value="it" label="PPMO" sequence="33" value="PPMO"/>
+                <element dependent_value="it" label="Problem Management" sequence="34" value="Problem Management"/>
+                <element dependent_value="it" label="Production Services" sequence="35" value="Production Services"/>
+                <element dependent_value="it" label="Quality &amp; Improvement" sequence="36" value="Quality &amp; Improvement"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Request Source Dept" mandatory="true" max_length="40" name="request_source_dept" type="string">
+            <choice>
+                <element label="Business" sequence="1" value="business"/>
+                <element label="IT" sequence="2" value="it"/>
+            </choice>
+        </element>
+        <element label="Required By Date (If project dependant)" max_length="40" name="required_by_date_if_project_dependant" type="glide_date"/>
+        <element label="Requirement amendments " max_length="40" name="requirement_amendments_actual" type="glide_duration"/>
+        <element label="Requirement amendments" max_length="40" name="reviewing_amendments_and_amending_requirements_document" type="glide_duration"/>
+        <element label="Stakeholder" mandatory="true" max_length="32" name="stakeholder" reference="sys_user" type="reference"/>
+        <element label="Target Deployment Date" max_length="40" name="target_deployment_date" type="glide_date"/>
+        <element label="Point of Contact for Testing" mandatory="true" max_length="32" name="tester" reference="sys_user" type="reference"/>
+        <element label="Total " max_length="40" name="total_actual" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="string">
+            <choice>
+                <element label="Bug" sequence="0" value="Bug"/>
+                <element label="Task" sequence="1" value="Task"/>
+                <element label="EPIC" sequence="2" value="EPIC"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" mandatory="true" max_length="40" name="t_shit_size" type="string">
+            <choice>
+                <element label="XS" sequence="0" value="XS"/>
+                <element label="S" sequence="1" value="S"/>
+                <element label="M" sequence="2" value="M"/>
+                <element label="L" sequence="3" value="L"/>
+                <element label="XL" sequence="4" value="XL"/>
+                <element label="Epic" sequence="5" value="Epic"/>
+            </choice>
+        </element>
+    </element>
+</database>

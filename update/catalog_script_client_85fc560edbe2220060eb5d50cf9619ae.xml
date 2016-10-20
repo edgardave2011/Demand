@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Service-Now Change Request">98f75a4adbe2220060eb5d50cf96199c</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Request Source</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+var source = ("request_source");
+   //Type appropriate comment here, and begin script below
+   
+if (source == "it"){
+	g_form.removeOption("request_source","Retail");
+g_form.removeOption("request_source","db_business");
+g_form.removeOption("request_source","cc_business");
+g_form.removeOption("request_source","Contracted Services");
+g_form.removeOption("request_source","creative_business");
+g_form.removeOption("request_source","Facilities");
+g_form.removeOption("request_source","FCR");
+g_form.removeOption("request_source","Finance");
+g_form.removeOption("request_source","F&D");
+g_form.removeOption("request_source","Group Insurance");
+g_form.removeOption("request_source","HR");
+g_form.removeOption("request_source","Labs");
+g_form.removeOption("request_source","L&D");
+g_form.removeOption("request_source","Legal");
+g_form.removeOption("request_source","Marketing");
+g_form.removeOption("request_source","Professional Services");
+g_form.removeOption("request_source","Property");
+g_form.removeOption("request_source","Resourcing & Talent");
+g_form.removeOption("request_source","Retail Complaints");
+g_form.removeOption("request_source","Tax & Treasury");
+g_form.removeOption("request_source","Travel");
+	
+	
+}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-20 09:04:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85fc560edbe2220060eb5d50cf9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Source</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service-Now Change Demand" source="x_76126_service_no">7c9cce82dbe2220060eb5d50cf96190d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service-Now Change Demand">7c9cce82dbe2220060eb5d50cf96190d</sys_scope>
+        <sys_update_name>catalog_script_client_85fc560edbe2220060eb5d50cf9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-20 09:04:56</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>
