@@ -17,11 +17,11 @@
         <number_ref display_value="SND">799c42c6dbe2220060eb5d50cf9619d0</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">10796870db12220060eb5d50cf961980</super_class>
+        <super_class display_value="Task" name="task">f6452072372331004ed29c9953990eb2</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 07:50:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>bc9cce82dbe2220060eb5d50cf96190d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Service-Now Change Demand Table</sys_name>

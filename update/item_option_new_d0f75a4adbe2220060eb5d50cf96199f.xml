@@ -55,7 +55,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 08:40:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d0f75a4adbe2220060eb5d50cf96199f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>container_start1</sys_name>

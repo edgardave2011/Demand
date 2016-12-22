@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <misc>0</misc>
+        <misc>0.00</misc>
         <order>28</order>
         <question display_value="Request Source">a0f75a4adbe2220060eb5d50cf9619a3</question>
-        <rec_misc>0</rec_misc>
+        <rec_misc>0.00</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 08:40:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>78f75a8adbe2220060eb5d50cf961938</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>LOB - Digicorp</sys_name>

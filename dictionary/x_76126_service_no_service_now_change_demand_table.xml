@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Service-Now Change Demand Table" max_length="40" name="x_76126_service_no_service_now_change_demand_table" type="collection">
+    <element audit="true" extends="task" label="Service-Now Change Demand Table" max_length="40" name="x_76126_service_no_service_now_change_demand_table" sizeclass="1" type="collection">
         <element label="Build" max_length="40" name="build" type="glide_duration"/>
-        <element label="Build " max_length="40" name="build_actual" type="glide_duration"/>
+        <element label="Build" max_length="40" name="build_actual" type="glide_duration"/>
         <element label="Build amendments" max_length="40" name="build_amendments" type="glide_duration"/>
-        <element label="Build amendments " max_length="40" name="build_amendments_actual" type="glide_duration"/>
+        <element label="Build amendments" max_length="40" name="build_amendments_actual" type="glide_duration"/>
         <element label="CAB Change" max_length="40" name="cab_change" type="glide_duration"/>
-        <element label="CAB Change " max_length="40" name="cab_change_actual" type="glide_duration"/>
+        <element label="CAB Change" max_length="40" name="cab_change_actual" type="glide_duration"/>
+        <element label="Cost Centre" max_length="32" name="contact_centre" reference="cmn_cost_center" type="reference"/>
+        <element label="Cost Centre" max_length="32" name="cost_centre" reference="cmn_cost_center" type="reference"/>
+        <element label="Cost Centre Manager" max_length="32" name="cost_centre_manager" reference="cmn_cost_center" type="reference"/>
         <element label="Deployment" max_length="40" name="deployment" type="glide_duration"/>
-        <element label="Deployment " max_length="40" name="deployment_actual" type="glide_duration"/>
+        <element label="Deployment" max_length="40" name="deployment_actual" type="glide_duration"/>
         <element label="Documenting requirements" max_length="40" name="documenting_requirements" type="glide_duration"/>
-        <element label="Documenting requirements " max_length="40" name="documenting_requirements_actual" type="glide_duration"/>
+        <element label="Documenting requirements" max_length="40" name="documenting_requirements_actual" type="glide_duration"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Epic Link" max_length="1024" name="epic_link" reference="x_76126_service_no_service_now_change_demand_table" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Expected Benefits" mandatory="true" max_length="4000" name="expected_benefits" type="string"/>
         <element label="Gathering requirements" max_length="40" name="gathering_requirements" type="glide_duration"/>
-        <element label="Gathering requirements " max_length="40" name="gathering_requirements_actual" type="glide_duration"/>
+        <element label="Gathering requirements" max_length="40" name="gathering_requirements_actual" type="glide_duration"/>
         <element label="Total" max_length="40" name="guestimate" type="glide_duration"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Links to" max_length="1024" name="links_to" reference="x_76126_service_no_service_now_change_demand_table" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Problem to resolve" mandatory="true" max_length="1000" name="problem_to_resolve" type="string"/>
@@ -67,12 +70,12 @@
             </choice>
         </element>
         <element label="Required By Date (If project dependant)" max_length="40" name="required_by_date_if_project_dependant" type="glide_date"/>
-        <element label="Requirement amendments " max_length="40" name="requirement_amendments_actual" type="glide_duration"/>
+        <element label="Requirement amendments" max_length="40" name="requirement_amendments_actual" type="glide_duration"/>
         <element label="Requirement amendments" max_length="40" name="reviewing_amendments_and_amending_requirements_document" type="glide_duration"/>
         <element label="Stakeholder" mandatory="true" max_length="32" name="stakeholder" reference="sys_user" type="reference"/>
         <element label="Target Deployment Date" max_length="40" name="target_deployment_date" type="glide_date"/>
         <element label="Point of Contact for Testing" mandatory="true" max_length="32" name="tester" reference="sys_user" type="reference"/>
-        <element label="Total " max_length="40" name="total_actual" type="glide_duration"/>
+        <element label="Total" max_length="40" name="total_actual" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="string">
             <choice>
                 <element label="Bug" sequence="0" value="Bug"/>

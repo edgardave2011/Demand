@@ -45,7 +45,7 @@ g_form.removeOption("request_source","Quality & Improvement");
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 08:48:23</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34a9d2cadbe2220060eb5d50cf9619fe</sys_id>

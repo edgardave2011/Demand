@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 07:50:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>219c42c6dbe2220060eb5d50cf9619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_76126_service_no_service_now_change_demand_table</sys_name>

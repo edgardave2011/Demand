@@ -5,6 +5,7 @@
         <can_delegate>true</can_delegate>
         <description>ServiceNow Demand Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_76126_service_no.ServiceNow Change Demand</name>
@@ -12,7 +13,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 07:50:33</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>459c42c6dbe2220060eb5d50cf9619c1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_76126_service_no.ServiceNow Change Demand</sys_name>

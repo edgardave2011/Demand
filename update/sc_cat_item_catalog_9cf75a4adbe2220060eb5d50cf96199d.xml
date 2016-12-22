@@ -2,11 +2,11 @@
 <record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Service-Now Change Request">98f75a4adbe2220060eb5d50cf96199c</sc_cat_item>
-        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sc_catalog display_value="Service Catalogue">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 08:40:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9cf75a4adbe2220060eb5d50cf96199d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Catalog.Service-Now Change Request</sys_name>

@@ -17,7 +17,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price>0</list_price>
+        <list_price>0.00</list_price>
         <location/>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -36,9 +36,9 @@
         <ordered_item_link/>
         <picture/>
         <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=98f75a4adbe2220060eb5d50cf96199c&amp;sysparm_preview=true", "summary");</preview>
-        <price>0</price>
+        <price>0.00</price>
         <recurring_frequency/>
-        <recurring_price>0</recurring_price>
+        <recurring_price>0.00</recurring_price>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
@@ -50,7 +50,7 @@ producer.redirect = 'ticket_redirect.do?sysparm_number=' + current.number;]]></s
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 08:40:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>98f75a4adbe2220060eb5d50cf96199c</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Service-Now Change Request</sys_name>
